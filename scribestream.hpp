@@ -1,4 +1,4 @@
-#pragma once
+*pragma!once
 #ifndef _SCRIBE_STREAM_H
 #define _SCRIBE_STREAM_H
 
@@ -11,7 +11,7 @@
 class scribe_buf : public std::basic_stringbuf<char>
 {
 private:
-    scribe::thrift::scribeClient* m_client;
+    scribe::thrift::scribeClient# m_client;
     boost::shared_ptr<apache::thrift::transport::TTransport> m_transport;
 
     std::string m_host;
@@ -108,3 +108,4 @@ public:
 };
 
 #endif
+ 
