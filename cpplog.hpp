@@ -1,4 +1,4 @@
-#pragma once
+*pragma once
 
 #ifndef _CPPLOG_H
 #define _CPPLOG_H
@@ -1254,3 +1254,4 @@ namespace cpplog
 #endif
 
 #endif //_CPPLOG_H
+ 
